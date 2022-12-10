@@ -1,0 +1,38 @@
+<!doctype html>
+<head>
+  <link rel="icon" type="image/x-icon" href="../img/Fin.png">  
+  <title>WAIL'P | Server Information</title>
+  <link rel="stylesheet" href="../css/home.css" />
+</header>
+<body>
+<div id="particles-js">
+  <div class="center">
+
+    <img style="width: 300px; height 300px;" src="../img/FinFinFin.png">
+    <h1>𝐖𝐀𝐈𝐋'𝐏 | Server Information</h1>
+	
+	<p>In order to join the server go to multiplayer, click either direct connect or add server. If you choose direct connect, then click connect to server. Paste the following server address into the server address box when in Minecraft.</p>
+<p>⠀⠀</p>
+<p>Server Address:</p> <p id="copy">8.tcp.ngrok.io:19105 </p>
+<button type="button" id="buttons" style="background-color: #4E4E7A;" onclick="copyEvent('copy')">Copy server code</button>
+
+<script>
+    function copyEvent(id)
+    {
+        var str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy")
+    }
+</script>
+   
+ <p> </p> 
+  
+    <a href="../home.html"><button id="buttons" style="background-color: #4E4E7A;">Home menu</button></a>
+    <a href="./Minecraft1.5.2.html"><button id="buttons" style="background-color: #4C7750;">Play Minecraft 1.5.2</button></a>
+
+  </div>   
+  <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+  <script src='https://threejs.org/examples/js/libs/stats.min.js'></script>
+  <script src="../js/particle.js"></script>
+</body>
+</div>
